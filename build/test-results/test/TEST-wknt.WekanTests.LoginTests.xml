@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="wknt.WekanTests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-28T19:18:21" hostname="DESKTOP-PUOTCN8" time="13.429">
+<testsuite name="wknt.WekanTests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-28T19:31:07" hostname="DESKTOP-PUOTCN8" time="13.223">
   <properties/>
-  <testcase name="loginWithExistingUserTest" classname="wknt.WekanTests.LoginTests" time="1.028"/>
-  <testcase name="loginWithNonExistingUserTest" classname="wknt.WekanTests.LoginTests" time="1.021"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 9306
+  <testcase name="loginWithExistingUserTest" classname="wknt.WekanTests.LoginTests" time="1.007"/>
+  <testcase name="loginWithNonExistingUserTest" classname="wknt.WekanTests.LoginTests" time="0.967"/>
+  <system-out><![CDATA[20:30:55,662 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:30:55,663 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+20:30:55,663 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/Dominika/Documents/GitHub/WekanTestsTask/build/resources/test/logback.xml]
+20:30:55,709 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+20:30:55,710 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Using current interpretation time, i.e. now, as time reference.
+20:30:55,749 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Adding property to the context with key="bySecond" and value="20191128T203055" to the LOCAL scope
+20:30:55,750 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:30:55,757 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+20:30:55,766 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:30:55,787 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+20:30:55,788 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+20:30:55,789 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
+20:30:55,789 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+20:30:55,789 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:30:55,789 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@621de11a - Registering current configuration as safe fallback point
+
+20:30:56.057 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
+20:30:56.077 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dominika\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
+20:31:09.336 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
+20:31:09.348 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dominika\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 13784
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574968693.907][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 28, 2019 8:18:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1574969459.605][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 28, 2019 8:31:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1574968697.989][WARNING]: Timed out connecting to Chrome, retrying...
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 31323
+[1574969463.693][WARNING]: Timed out connecting to Chrome, retrying...
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 46217
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574968706.256][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 28, 2019 8:18:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1574969472.499][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 28, 2019 8:31:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1574968710.285][WARNING]: Timed out connecting to Chrome, retrying...
+[1574969476.529][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
 </testsuite>
