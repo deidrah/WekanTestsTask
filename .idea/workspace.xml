@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca6f5b1-9811-4364-9242-015efa58f513" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProjektTestowy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_ft" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
@@ -52,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests.loginWithNonExistingUserTest">
+  <component name="RunManager" selected="JUnit.RegistrationTests.registerNewUserTest">
     <configuration name="LoginTests.loginWithExistingUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WekanTestsTask.test" />
       <extension name="coverage">
@@ -85,6 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTests.registerExistingUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WekanTestsTask.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wknt.WekanTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wknt.WekanTests" />
+      <option name="MAIN_CLASS_NAME" value="wknt.WekanTests.RegistrationTests" />
+      <option name="METHOD_NAME" value="registerExistingUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.registerNewUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WekanTestsTask.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wknt.WekanTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wknt.WekanTests" />
+      <option name="MAIN_CLASS_NAME" value="wknt.WekanTests.RegistrationTests" />
+      <option name="METHOD_NAME" value="registerNewUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.loginWithExistingUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WekanTestsTask.test" />
       <extension name="coverage">
@@ -103,30 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.registerNewUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WekanTestsTask.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wknt.WekanTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wknt.WekanTests" />
-      <option name="MAIN_CLASS_NAME" value="wknt.WekanTests.RegistrationTests" />
-      <option name="METHOD_NAME" value="registerNewUserTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationTests.registerNewUserTest" />
+        <item itemvalue="JUnit.RegistrationTests.registerExistingUserTest" />
         <item itemvalue="JUnit.LoginTests.loginWithNonExistingUserTest" />
         <item itemvalue="JUnit.LoginTests.loginWithExistingUserTest" />
         <item itemvalue="TestNG.LoginTests.loginWithExistingUserTest" />
-        <item itemvalue="TestNG.RegistrationTests.registerNewUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,33 +173,43 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
-          <line>50</line>
+          <line>56</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/LoginTests.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/wknt/WekanTests/RegistrationTests.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
