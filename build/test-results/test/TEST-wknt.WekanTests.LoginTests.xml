@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="wknt.WekanTests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-28T19:18:21" hostname="DESKTOP-PUOTCN8" time="13.429">
+  <properties/>
+  <testcase name="loginWithExistingUserTest" classname="wknt.WekanTests.LoginTests" time="1.028"/>
+  <testcase name="loginWithNonExistingUserTest" classname="wknt.WekanTests.LoginTests" time="1.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 9306
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574968693.907][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 28, 2019 8:18:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1574968697.989][WARNING]: Timed out connecting to Chrome, retrying...
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 31323
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574968706.256][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 28, 2019 8:18:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1574968710.285][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+</testsuite>

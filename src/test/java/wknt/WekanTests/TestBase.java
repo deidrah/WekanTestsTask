@@ -1,14 +1,14 @@
 package wknt.WekanTests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -17,7 +17,7 @@ public class TestBase {
     WebDriverWait wait;
     WebDriver driver;
 
-    @BeforeEach
+    @BeforeMethod
     public void testSetUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -30,7 +30,7 @@ public class TestBase {
         driver.navigate().to("https://wekan.coded.pl/");
     }
 
-    @AfterEach
+    @AfterMethod
     public void closeDriver() throws IOException {
         driver.close();
         driver.quit();

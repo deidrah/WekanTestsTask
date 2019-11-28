@@ -1,11 +1,10 @@
 package wknt.WekanTests;
 
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertTrue;
 
 
 public class LoginTests extends TestBase {
@@ -28,7 +27,7 @@ public class LoginTests extends TestBase {
         type(By.id("at-field-username_and_email"), username);
         type(By.id("at-field-password"), password);
         click(By.id("at-btn"));
-        wait = new WebDriverWait(driver, 5);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*/text()[normalize-space(.)='Login forbidden']/parent::*")));
         assertTrue(driver.findElement(By.xpath("//*/text()[normalize-space(.)='Login forbidden']/parent::*")).isDisplayed());
     }
