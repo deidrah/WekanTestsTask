@@ -5,6 +5,11 @@ Make sure you have the following stack installed:
 * Java SE 12
 * IDE (IntelliJ)
 
+## Stack
+* Java
+* Selenium WebDriver
+* TestNG
+
 ## Description
 Test suite contains 4 tests, two login and two registration tests for https://wekan.coded.pl/ application.
 
