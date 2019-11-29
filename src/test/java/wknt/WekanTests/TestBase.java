@@ -6,6 +6,9 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +21,7 @@ public class TestBase {
     WebDriver driver;
     By boardVisible =  By.className("js-add-board");
     By button =  By.id("at-btn");
+    By selectEnglish = By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Zarejestruj się'])[1]/following::select[1]");
 
     @BeforeMethod
     public void testSetUp() {
@@ -30,6 +34,11 @@ public class TestBase {
         driver.manage().window().setPosition(new Point(8, 30));
 
         driver.navigate().to("https://wekan.coded.pl/");
+        if (driver.getPageSource().contains("Zarejestruj się")) {
+            wait.until(ExpectedConditions.presenceOfElementLocated(selectEnglish));
+            driver.findElement(selectEnglish).click();
+            new Select(driver.findElement(selectEnglish)).selectByVisibleText("English");
+        }
     }
 
     @AfterMethod
