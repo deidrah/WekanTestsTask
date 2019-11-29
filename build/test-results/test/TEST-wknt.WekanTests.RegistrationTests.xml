@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="wknt.WekanTests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-29T09:42:15" hostname="DESKTOP-PUOTCN8" time="14.643">
+<testsuite name="wknt.WekanTests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-29T10:08:41" hostname="DESKTOP-PUOTCN8" time="14.653">
   <properties/>
-  <testcase name="registerExistingUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.367"/>
-  <testcase name="registerNewUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.903"/>
+  <testcase name="registerExistingUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.399"/>
+  <testcase name="registerNewUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.895"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 6600
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 11725
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1575020528.199][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 29, 2019 10:42:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1575022114.240][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 29, 2019 11:08:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1575020532.243][WARNING]: Timed out connecting to Chrome, retrying...
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 20603
+[1575022118.266][WARNING]: Timed out connecting to Chrome, retrying...
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 37869
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1575020540.953][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 29, 2019 10:42:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1575022126.981][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 29, 2019 11:08:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1575020544.985][WARNING]: Timed out connecting to Chrome, retrying...
+[1575022131.007][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
 </testsuite>
