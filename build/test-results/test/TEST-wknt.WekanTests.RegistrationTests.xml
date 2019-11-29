@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="wknt.WekanTests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-28T19:31:32" hostname="DESKTOP-PUOTCN8" time="14.674">
+<testsuite name="wknt.WekanTests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-29T09:42:15" hostname="DESKTOP-PUOTCN8" time="14.643">
   <properties/>
-  <testcase name="registerExistingUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.344"/>
-  <testcase name="registerNewUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.813"/>
-  <system-out><![CDATA[20:31:21.562 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
-20:31:21.568 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dominika\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
-20:31:34.512 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
-20:31:34.516 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dominika\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
-]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 17022
+  <testcase name="registerExistingUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.367"/>
+  <testcase name="registerNewUserTest" classname="wknt.WekanTests.RegistrationTests" time="1.903"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 6600
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574969484.700][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 28, 2019 8:31:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1575020528.199][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 29, 2019 10:42:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1574969488.741][WARNING]: Timed out connecting to Chrome, retrying...
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 26014
+[1575020532.243][WARNING]: Timed out connecting to Chrome, retrying...
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 20603
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574969497.597][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 28, 2019 8:31:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1575020540.953][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 29, 2019 10:42:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1574969501.623][WARNING]: Timed out connecting to Chrome, retrying...
+[1575020544.985][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
 </testsuite>

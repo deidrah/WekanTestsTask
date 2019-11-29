@@ -20,9 +20,13 @@ Registration Tests are:
 ## Instructions
 1. Clone the repository `https://github.com/deidrah/WekanTestsTask.git` 
 2. Open the project in IDE
-3. Open the console and run `gradlew test`
+3. Build the project
+4. Open the console and run on Windows -  `gradlew test`, on MacOS  `./gradlew test`
 
 The test suite should be now running.
 
+
+## Problems
+If you have problems with compatibility try changing the settings of Gradle JVM to using project JDK
 
 

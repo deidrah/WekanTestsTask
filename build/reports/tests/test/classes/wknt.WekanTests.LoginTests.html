@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.974s</div>
+<div class="counter">2.098s</div>
 <p>duration</p>
 </div>
 </td>
@@ -64,10 +64,7 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -82,59 +79,36 @@
 </thead>
 <tr>
 <td class="success">loginWithExistingUserTest</td>
-<td class="success">1.007s</td>
+<td class="success">1.077s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">loginWithNonExistingUserTest</td>
-<td class="success">0.967s</td>
+<td class="success">1.021s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>20:30:55,662 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-20:30:55,663 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
-20:30:55,663 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/Dominika/Documents/GitHub/WekanTestsTask/build/resources/test/logback.xml]
-20:30:55,709 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
-20:30:55,710 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Using current interpretation time, i.e. now, as time reference.
-20:30:55,749 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Adding property to the context with key=&quot;bySecond&quot; and value=&quot;20191128T203055&quot; to the LOCAL scope
-20:30:55,750 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-20:30:55,757 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
-20:30:55,766 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-20:30:55,787 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
-20:30:55,788 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
-20:30:55,789 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
-20:30:55,789 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
-20:30:55,789 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
-20:30:55,789 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@621de11a - Registering current configuration as safe fallback point
-
-20:30:56.057 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
-20:30:56.077 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dominika\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
-20:31:09.336 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
-20:31:09.348 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dominika\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 13784
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 23140
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574969459.605][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 28, 2019 8:31:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1575020503.284][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 29, 2019 10:41:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1574969463.693][WARNING]: Timed out connecting to Chrome, retrying...
-Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 46217
+[1575020507.377][WARNING]: Timed out connecting to Chrome, retrying...
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 7243
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574969472.499][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 28, 2019 8:31:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1575020515.807][WARNING]: Timed out connecting to Chrome, retrying...
+Nov 29, 2019 10:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1574969476.529][WARNING]: Timed out connecting to Chrome, retrying...
+[1575020519.843][WARNING]: Timed out connecting to Chrome, retrying...
 </pre>
 </span>
 </div>
@@ -146,7 +120,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at Nov 28, 2019, 8:31:47 PM</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Nov 29, 2019, 10:42:31 AM</p>
 </div>
 </div>
 </body>

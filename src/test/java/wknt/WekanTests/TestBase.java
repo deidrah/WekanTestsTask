@@ -16,6 +16,8 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     WebDriverWait wait;
     WebDriver driver;
+    By boardVisible =  By.className("js-add-board");
+    By button =  By.id("at-btn");
 
     @BeforeMethod
     public void testSetUp() {
